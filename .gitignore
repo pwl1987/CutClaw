@@ -40,3 +40,4 @@ resource/subtitle/*
 !resource/video/.gitkeep
 !resource/subtitle/.gitkeep
 src/config_my.py
+asset/demo_compressed

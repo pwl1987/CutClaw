@@ -235,16 +235,15 @@ python render/render_video.py \
 
 <table width="100%">
 <tr>
-<td align="center" width="20%">
+<td align="center" width="33.33%">
   <video src="https://github.com/user-attachments/assets/ac86d0c9-b652-4ec0-8527-1ebb0f465e7f" controls width="100%"></video>
 </td>
-<td align="center" width="20%">
+<td align="center" width="33.33%">
   <video src="https://github.com/user-attachments/assets/970fd0c4-38c6-4674-8e5b-acfe4acba6ac" controls width="100%"></video>
 </td>
-<td align="center" width="20%">
+<td align="center" width="33.33%">
   <video src="https://github.com/user-attachments/assets/8b02d26f-9b15-4961-b17a-74f915329021" controls width="100%"></video>
 </td>
-<td width="40%"></td>
 </tr>
 </table>
 
