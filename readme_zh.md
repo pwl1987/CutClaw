@@ -32,6 +32,10 @@
 
 ---
 
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/d3abb7b8-0503-4433-b255-d3367f1506c0" controls width="80%"></video>
+</p>
+
 ## 💡 概述
 
 CutClaw 是一个面向长视频素材与音乐的端到端自动剪辑系统。
