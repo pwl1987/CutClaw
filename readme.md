@@ -268,7 +268,7 @@ python render/render_video.py \
 
 
 ## ⭐ Citation
-If you find PersonaLive useful for your research, welcome to cite our work using the following BibTeX:
+If you find CutClaw useful for your research, welcome to cite our work using the following BibTeX:
 <!-- ```bibtex
 @article{li2025personalive,
   title={PersonaLive! Expressive Portrait Image Animation for Live Streaming},
