@@ -26,7 +26,7 @@
     <a href="readme_zh.md"><img src="https://img.shields.io/badge/中文版-1a1a2e?style=for-the-badge"></a>
 </p>
 
-[概述](#-概述) • [核心功能](#-核心功能) • [效果展示](#️-效果展示) • [快速开始](#-快速开始) • [常见问题](#️-常见问题) • [引用](#-引用)
+[概述](#-概述) • [路线图](#-路线图) • [核心功能](#-核心功能) • [效果展示](#️-效果展示) • [快速开始](#-快速开始) • [常见问题](#️-常见问题) • [引用](#-引用) • [Star History](#-star-history)
 
 </div>
 
@@ -43,6 +43,34 @@ CutClaw 是一个面向长视频素材与音乐的端到端自动剪辑系统。
 它首先将原始视频和音频解析为结构化描述，再通过多智能体流水线完成镜头规划（`shot_plan`）、片段时间戳选取（`shot_point`）及质量验证，最终渲染输出成片。
 
 ![CutClaw Pipeline](asset/method.png)
+
+---
+
+## 🗺️ 路线图
+
+> 我们非常欢迎社区提出新的想法和 issue。如果您有建议，欢迎随时提交 issue。您的反馈将进入我们的未来计划，也会成为推动这个项目起飞的燃料。🔥
+
+### 短期目标
+
+> 我们正在优先推进更快、更省、更具表现力的视频剪辑能力。
+
+- [ ] 🧩 **集成 ARC-Chapter**  
+  引入 [ARC-Chapter](https://github.com/TencentARC/ARC-Chapter)，进一步降低长视频素材拆解的成本。
+- [ ] 💸 **低成本模式**  
+  增加预算友好的低成本模式，不再对全部素材做完整处理，而是主动读取更相关的素材片段。
+- [ ] 🎙️ **口播 + 画面混剪逻辑**  
+  加入口播驱动片段与辅助画面素材协同组织的混合剪辑逻辑。
+
+### 长期目标
+
+> 这些方向会帮助 CutClaw 走向更完整的产品形态和更广泛的生态适配。
+
+- [ ] ✍️ **升级 Playwriter**  
+  引入更丰富的剪辑模式与视觉叙事方法，增强整体编排能力。
+- [ ] 🔌 **适配 Claude Code MCP**  
+  让 CutClaw 能够更顺畅地接入 Claude Code MCP 工作流。
+- [ ] 🌐 **建立在线服务页面**  
+  构建网页化在线服务界面，降低使用门槛并提升部署便利性。
 
 ---
 
@@ -275,3 +303,13 @@ python render/render_video.py \
   year={2026}
 }
 ``` 
+
+---
+
+## 📈 Star History
+
+<p align="center">
+  <a href="https://www.star-history.com/#GVCLab/CutClaw&Date">
+    <img src="https://api.star-history.com/svg?repos=GVCLab/CutClaw&type=Date" alt="Star History Chart" width="100%" />
+  </a>
+</p>

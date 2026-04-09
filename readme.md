@@ -26,7 +26,7 @@
     <a href="readme_zh.md"><img src="https://img.shields.io/badge/中文版-1a1a2e?style=for-the-badge"></a>
 </p>
 
-[Overview](#-overview) • [Features](#-key-features) • [Gallery](#️-gallery) • [Quick Start](#-quick-start) • [Troubleshooting](#️-troubleshooting) • [Citation](#-citation)
+[Overview](#-overview) • [Roadmap](#-roadmap) • [Features](#-key-features) • [Gallery](#️-gallery) • [Quick Start](#-quick-start) • [Troubleshooting](#️-troubleshooting) • [Citation](#-citation) • [Star History](#-star-history)
 
 </div>
 
@@ -43,6 +43,34 @@ CutClaw is an end-to-end editing system for long-form footage + music.
 It first deconstructs raw video/audio into structured captions, then uses a multi-agent pipeline to plan shots (`shot_plan`), select clip timestamps (`shot_point`), and validate final quality before rendering.
 
 ![CutClaw Pipeline](asset/method.png)
+
+---
+
+## 🗺️ Roadmap
+
+> We warmly welcome new issues and ideas from the community. If you have suggestions, please open an issue. Your feedback will help shape our future plans and be the fuel that helps this project take off. 🔥
+
+### Short-Term Goals
+
+> What we're building next for faster, cheaper, and more expressive video editing.
+
+- [ ] 🧩 **ARC-Chapter Integration**  
+  Bring in [ARC-Chapter](https://github.com/TencentARC/ARC-Chapter) to reduce the cost of long-form footage deconstruction.
+- [ ] 💸 **Low-Cost Mode**  
+  Add a budget-friendly mode that proactively reads only relevant footage instead of fully processing all source material.
+- [ ] 🎙️ **Talking-Head + Visual Mixing**  
+  Introduce hybrid editing logic that coordinates narration-driven clips with supporting visual footage.
+
+### Long-Term Goals
+
+> Broader product and ecosystem directions for the next stage of CutClaw.
+
+- [ ] ✍️ **Playwriter Upgrade**  
+  Expand the Playwriter with richer editing patterns and more diverse visual storytelling methods.
+- [ ] 🔌 **Claude Code MCP Support**  
+  Adapt CutClaw to work smoothly within Claude Code MCP workflows.
+- [ ] 🌐 **Online Service Interface**  
+  Build a web-based service interface for easier access and deployment.
 
 ---
 
@@ -277,3 +305,13 @@ If you find CutClaw useful for your research, welcome to cite our work using the
   year={2026}
 }
 ``` 
+
+---
+
+## 📈 Star History
+
+<p align="center">
+  <a href="https://www.star-history.com/#GVCLab/CutClaw&Date">
+    <img src="https://api.star-history.com/svg?repos=GVCLab/CutClaw&type=Date" alt="Star History Chart" width="100%" />
+  </a>
+</p>
